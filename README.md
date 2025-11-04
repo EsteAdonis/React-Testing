@@ -44,3 +44,20 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+- React Testing Library
+- https://testing-library.com/docs/react-testing-library/intro/
+
+
+- React Testing Tutorial - 5 - Project Setup
+- https://www.youtube.com/watch?v=9kPiq8-i-0M&list=PLC3y8-rFHvwirqe1KHFCHJ0RqNuN61SJd&index=5
+
+- Installation
+- npx create-react-app react-testing --template typescript
+
+
+- With TypeScript
+- npm install --save-dev @testing-library/react @testing-library/dom @types/react @types/react-dom
+
+-- Wath this.
+-- https://www.geeksforgeeks.org/reactjs/react-interview-questions/
