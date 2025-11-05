@@ -44,6 +44,10 @@ describe('Testing Application', () => {
 
 		const elementDisplay = screen.getByDisplayValue("Adonis Person");
 		expect(elementDisplay).toBeInTheDocument();
+
+
+		const imageElement = screen.getByAltText('a person with a laptop');
+		expect(imageElement).toBeInTheDocument();
 	})
 })
 
