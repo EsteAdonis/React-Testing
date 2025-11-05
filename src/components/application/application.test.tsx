@@ -35,6 +35,12 @@ describe('Testing Application', () => {
 
 		const labelAgree = screen.getByLabelText('I agree to the terms and conditions');
 		expect(labelAgree).toBeInTheDocument();
+
+		const placeHolder = screen.getByPlaceholderText('Type your name');
+		expect(placeHolder).toBeInTheDocument();
+
+		const paragraphElment = screen.getByText("All fields are mandatory");
+		expect(paragraphElment).toBeInTheDocument();
 	})
 })
 

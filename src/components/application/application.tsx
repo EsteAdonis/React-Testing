@@ -3,10 +3,11 @@ export const Application = () => {
 		<>
 			<h1>Job Application form</h1>
 			<h2>Section 1</h2>
+			<p>All fields are mandatory</p>
 			<form action="" style={{display: "flex", flexDirection: "column", marginTop: "20px", backgroundColor: "darkgray"}}>
 				<div>
 					<label htmlFor="name">Name</label>
-					<input type="text" id="name" />
+					<input type="text" id="name" placeholder="Type your name" />
 				</div>
 				<div>
 					<label htmlFor="bio">Bio </label>
