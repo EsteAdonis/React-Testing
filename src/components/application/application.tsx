@@ -4,6 +4,7 @@ export const Application = () => {
 			<h1>Job Application form</h1>
 			<h2>Section 1</h2>
 			<p>All fields are mandatory</p>
+			<span title="colse">X</span>
 			<img src="http://via.placeholder.com/150" alt="a person with a laptop" />
 			<form action="" style={{display: "flex", flexDirection: "column", marginTop: "20px", backgroundColor: "darkgray"}}>
 				<div>
