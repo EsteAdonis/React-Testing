@@ -1,6 +1,17 @@
 import { render, screen } from '@testing-library/react';
 import { Application } from './application';
 
+// Priority Order for Queries
+// Your test should resemble how users interact with your code (component, page, etc.) as much as possible.
+// 1. getByRole
+// 2. getByLabelText
+// 3. getByPlaceHolderText
+// 4. getByText
+// 5. getByDisplayValue
+// 6. getByAltText
+// 7. getByTitle
+// 8. getByTestId
+
 describe('Testing Application', () => {
 	it('Should the application component runs well', () => {
 		render(<Application />);
@@ -56,5 +67,6 @@ describe('Testing Application', () => {
 
 	})
 })
+
 
 // npx unlighthouse --site
