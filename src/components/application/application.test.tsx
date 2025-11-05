@@ -25,7 +25,6 @@ describe('Testing Application', () => {
 		const headingL2 = screen.getByRole('heading', {level: 2})
 		expect(headingL2).toBeInTheDocument();		
 
-
 		const textBox = screen.getByRole('textbox', {name: "Name"});
 		expect(textBox).toBeInTheDocument();
 
