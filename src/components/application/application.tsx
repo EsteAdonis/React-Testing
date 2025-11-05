@@ -7,7 +7,10 @@ export const Application = () => {
 			<form action="" style={{display: "flex", flexDirection: "column", marginTop: "20px", backgroundColor: "darkgray"}}>
 				<div>
 					<label htmlFor="name">Name</label>
-					<input type="text" id="name" placeholder="Type your name" />
+					<input type="text" id="name" 
+							placeholder="Type your name" 
+							value="Adonis Perseo"
+							onChange={() => {}}/>
 				</div>
 				<div>
 					<label htmlFor="bio">Bio </label>

@@ -41,6 +41,9 @@ describe('Testing Application', () => {
 
 		const paragraphElment = screen.getByText("All fields are mandatory");
 		expect(paragraphElment).toBeInTheDocument();
+
+		const elementDisplay = screen.getByDisplayValue("Adonis Person");
+		expect(elementDisplay).toBeInTheDocument();
 	})
 })
 
