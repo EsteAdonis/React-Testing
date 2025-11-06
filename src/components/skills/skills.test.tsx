@@ -15,4 +15,21 @@ describe ('Skills', () => {
 		const listItemselements = screen.getAllByRole('listitem');
 		expect(listItemselements).toHaveLength(skills.length);
 	})
+
+	test('Render login button', () => {
+		render(<Skills skills={skills} />);
+		const loginButton = screen.getByRole("button", {name: "Login"});
+		expect(loginButton).toBeInTheDocument();
+	});
+
+	// queryBy
+	// Returns the matching node for a query, and return if no elements match
+	// Useful for asserting and element that is not present
+	test('Start Learning button is not render', () => {
+		render(<Skills skills={skills} />);
+		const stratLearningButton = screen.queryByRole('button', {
+			name: 'Start Learning'
+		})
+		expect(stratLearningButton).not.toBeInTheDocument();
+	})
 })	

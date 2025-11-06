@@ -61,3 +61,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 -- Wath this.
 -- https://www.geeksforgeeks.org/reactjs/react-interview-questions/
+
+-- TextMatch
+-- String
+-- Regex
+-- Function

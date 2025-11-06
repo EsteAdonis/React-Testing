@@ -52,7 +52,7 @@ describe('Testing Application', () => {
 		const paragraphElment = screen.getByText("All fields are mandatory");
 		expect(paragraphElment).toBeInTheDocument();
 
-		const elementDisplay = screen.getByDisplayValue("Adonis Person");
+		const elementDisplay = screen.getByDisplayValue("Adonis Perseo");
 		expect(elementDisplay).toBeInTheDocument();
 
 		const imageElement = screen.getByAltText('a person with a laptop');
