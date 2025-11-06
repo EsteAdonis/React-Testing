@@ -1,13 +1,14 @@
 // import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import { Application } from './components/application/application';
-import { Skills } from './components/skills/skills';
+//import { Application } from './components/application/application';
+import { Counter } from './components/counter/counter';
+// import { Skills } from './components/skills/skills';
 
 function App() {
   return (
     <div className="App">
-			<Skills skills={['Html', 'JavaScript','Css']} />
+			<Counter />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

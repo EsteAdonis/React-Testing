@@ -40,5 +40,4 @@ describe ('Skills', () => {
 		const startLearning = await screen.findByRole('button', {name: 'Start Learning'}, {timeout: 2000});
 		expect(startLearning).toBeInTheDocument();
 	});
-
 })	
