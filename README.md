@@ -66,3 +66,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 -- String
 -- Regex
 -- Function
+
+-- https://www.youtube.com/watch?v=W7CbUiO3_28&list=PLC3y8-rFHvwirqe1KHFCHJ0RqNuN61SJd&index=43
