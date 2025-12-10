@@ -92,3 +92,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 -- Chatper 50 - Prettier
 -- Prettier is an opinionated code formatter that ensures that all outputted code conforms to a consistent style.
 -- npm install --save-dev --save-exact prettier
+
+-- Chapter 52 - Husky
+	-- Husky is a tool that helps improve your commits and more
+	-- npm install husky --save-dev
