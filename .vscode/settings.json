@@ -18,7 +18,7 @@
   "terminal.integrated.fontSize": 15,
   "editor.linkedEditing": true,
   "editor.cursorBlinking": "expand",
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

@@ -94,5 +94,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 -- npm install --save-dev --save-exact prettier
 
 -- Chapter 52 - Husky
-	-- Husky is a tool that helps improve your commits and more
-	-- npm install husky --save-dev
+-- npm install husky --save-dev
+-- Husky is a tool that helps improve your commits and more ==> you configure the husky to execute
+-- > npm run lint && npm run format at the moment to commit the changes.
+
+-- lint-staged
+-- Run linters (and formatters) against staged git files
+-- npm install --save-dev lint-staged
