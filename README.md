@@ -68,3 +68,21 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 -- Function
 
 -- https://www.youtube.com/watch?v=W7CbUiO3_28&list=PLC3y8-rFHvwirqe1KHFCHJ0RqNuN61SJd&index=48
+
+-- Static analysis testing
+-- Process of verifying that your code meets certain expectations without actually running it.
+	-- Ensure for common mistake and possible bugs
+	-- Check for common mistakes and possible bugs
+	-- Limit the complexity of code and
+	-- Verify type consistency
+
+-- All types of test fun the code and then compare the coutome against known expected outputs to see if everthing works ok
+	-- Static testing analyses aspects such as readability, consistency, error handling, type checking, and alignment with best practices.
+	-- Testing checks if your code works or not, whereas static analysis checks if it is written well or not.
+
+-- Static analysis testing tools
+	-- TypeScript
+	-- ESlint
+	-- Prettier
+	-- Husky
+	-- lint-staged
