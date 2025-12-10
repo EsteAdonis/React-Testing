@@ -42,6 +42,12 @@ describe('Testing Application', () => {
     const button = screen.getByRole('button')
     expect(button).toBeInTheDocument()
 
+
+
+
+		
+		expect(button).toBeDisabled()
+
     const labelTag = screen.getByLabelText('Name', { selector: 'input' })
     expect(labelTag).toBeInTheDocument()
 
