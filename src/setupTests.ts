@@ -1,3 +1,11 @@
+// jest-dom adds custom jest matchers for asserting on DOM nodes.
+// allows you to do things like:
+// expect(element).toHaveTextContent(/react/i)
+// learn more: https://github.com/testing-library/jest-dom
+import '@testing-library/jest-dom';
+
+import { server } from './mocks/server';
+
 // MUST be at the absolute top - setup polyfills before anything else
 const { webcrypto } = require('crypto');
 const { TextEncoder, TextDecoder } = require('util');
@@ -19,13 +27,6 @@ Object.defineProperty(global, 'crypto', {
   writable: true,
   configurable: true,
 });
-// jest-dom adds custom jest matchers for asserting on DOM nodes.
-// allows you to do things like:
-// expect(element).toHaveTextContent(/react/i)
-// learn more: https://github.com/testing-library/jest-dom
-import '@testing-library/jest-dom';
-
-import { server } from './mocks/server';
 
 // Establish API mocking before all tests.
 beforeAll(() => server.listen({ onUnhandledRequest: 'error' }));

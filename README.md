@@ -86,3 +86,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 	-- Prettier
 	-- Husky
 	-- lint-staged
+
+-- Chapter 49 - ESlint
+	-- ESlint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+
+-- 
