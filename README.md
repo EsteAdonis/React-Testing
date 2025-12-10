@@ -48,13 +48,11 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - React Testing Library
 - https://testing-library.com/docs/react-testing-library/intro/
 
-
 - React Testing Tutorial - 5 - Project Setup
 - https://www.youtube.com/watch?v=9kPiq8-i-0M&list=PLC3y8-rFHvwirqe1KHFCHJ0RqNuN61SJd&index=5
 
 - Installation
 - npx create-react-app react-testing --template typescript
-
 
 - With TypeScript
 - npm install --save-dev @testing-library/react @testing-library/dom @types/react @types/react-dom
@@ -71,23 +69,26 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 -- Static analysis testing
 -- Process of verifying that your code meets certain expectations without actually running it.
-	-- Ensure for common mistake and possible bugs
-	-- Check for common mistakes and possible bugs
-	-- Limit the complexity of code and
-	-- Verify type consistency
+-- Ensure for common mistake and possible bugs
+-- Check for common mistakes and possible bugs
+-- Limit the complexity of code and
+-- Verify type consistency
 
 -- All types of test fun the code and then compare the coutome against known expected outputs to see if everthing works ok
-	-- Static testing analyses aspects such as readability, consistency, error handling, type checking, and alignment with best practices.
-	-- Testing checks if your code works or not, whereas static analysis checks if it is written well or not.
+-- Static testing analyses aspects such as readability, consistency, error handling, type checking, and alignment with best practices.
+-- Testing checks if your code works or not, whereas static analysis checks if it is written well or not.
 
 -- Static analysis testing tools
-	-- TypeScript
-	-- ESlint
-	-- Prettier
-	-- Husky
-	-- lint-staged
+-- TypeScript
+-- ESlint
+-- Prettier
+-- Husky
+-- lint-staged
 
 -- Chapter 49 - ESlint
-	-- ESlint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+-- ESlint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+-- npm install --save-dev eslint-plugin-jest-dom
 
--- 
+-- Chatper 50 - Prettier
+-- Prettier is an opinionated code formatter that ensures that all outputted code conforms to a consistent style.
+-- npm install --save-dev --save-exact prettier

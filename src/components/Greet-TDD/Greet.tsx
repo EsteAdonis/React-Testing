@@ -1,11 +1,9 @@
 import React from 'react'
 
 type props = {
-	name?: string
+  name?: string
 }
 
-export const Greet = ( {name} : props) => {
-	return (
-		<div>Greetings {name}</div>
-	)
+export const Greet = ({ name }: props) => {
+  return <div>Greetings {name}</div>
 }
